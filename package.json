@@ -1,0 +1,22 @@
+{
+  "name": "hn-graphql-api",
+  "version": "1.0.0",
+  "description": "A Basic HackerNews GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [
+    "HackerNews GraphQL API"
+  ],
+  "author": "IYaksha",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.9.3",
+    "apollo-server": "^2.16.1",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
